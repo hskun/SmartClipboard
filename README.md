@@ -33,7 +33,8 @@ SmartClipboard is a lightweight and efficient clipboard manager designed specifi
    ```
 2. Build:
    ```bash
-   swiftc -o SmartClipboardApp_Exec ClipboardItem.swift ClipboardManager.swift ContentView.swift SmartClipboardApp.swift -framework SwiftUI -framework AppKit -framework Combine -framework Carbon```
+   swiftc -o SmartClipboardApp_Exec ClipboardItem.swift ClipboardManager.swift ContentView.swift SmartClipboardApp.swift -framework SwiftUI -framework AppKit -framework Combine -framework Carbon
+   ```
 4. Run:
    `./SmartClipboardApp_Exec`
 
@@ -75,7 +76,8 @@ SmartClipboard 是一款專為 macOS 設計的輕量級智慧剪貼簿管理器�
    ```
 2. 構建:
    ```bash
-   swiftc -o SmartClipboardApp_Exec ClipboardItem.swift ClipboardManager.swift ContentView.swift SmartClipboardApp.swift -framework SwiftUI -framework AppKit -framework Combine -framework Carbon```
+   swiftc -o SmartClipboardApp_Exec ClipboardItem.swift ClipboardManager.swift ContentView.swift SmartClipboardApp.swift -framework SwiftUI -framework AppKit -framework Combine -framework Carbon
+   ```
 4. 運行:
    `./SmartClipboardApp_Exec`
 
