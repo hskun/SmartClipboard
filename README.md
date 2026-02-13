@@ -1,5 +1,5 @@
 # SmartClipboard
-
+![logo](./smartclipboard.png)
 [English](#english) | [繁體中文](#繁體中文)
 
 ---
@@ -31,8 +31,11 @@ SmartClipboard is a lightweight and efficient clipboard manager designed specifi
    ```bash
    git clone https://github.com/yourusername/SmartClipboard.git
    ```
-2. Open `SmartClipboard.xcodeproj` in Xcode.
-3. Build and run the project (Cmd + R).
+2. Build:
+   ```bash
+   swiftc -o SmartClipboardApp_Exec ClipboardItem.swift ClipboardManager.swift ContentView.swift SmartClipboardApp.swift -framework SwiftUI -framework AppKit -framework Combine -framework Carbon```
+4. Run:
+   `./SmartClipboardApp_Exec`
 
 ### ⌨️ Usage
 
@@ -70,8 +73,11 @@ SmartClipboard 是一款專為 macOS 設計的輕量級智慧剪貼簿管理器�
    ```bash
    git clone https://github.com/yourusername/SmartClipboard.git
    ```
-2. 在 Xcode 中打開 `SmartClipboard.xcodeproj`。
-3. 編譯並運行項目 (Cmd + R)。
+2. 構建:
+   ```bash
+   swiftc -o SmartClipboardApp_Exec ClipboardItem.swift ClipboardManager.swift ContentView.swift SmartClipboardApp.swift -framework SwiftUI -framework AppKit -framework Combine -framework Carbon```
+4. 運行:
+   `./SmartClipboardApp_Exec`
 
 ### ⌨️ 使用方法
 
